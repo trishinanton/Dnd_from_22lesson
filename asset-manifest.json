@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Dnd_from_22lesson/static/css/main.8fed11e8.chunk.css",
+    "main.js": "/Dnd_from_22lesson/static/js/main.ef0a2f76.chunk.js",
+    "main.js.map": "/Dnd_from_22lesson/static/js/main.ef0a2f76.chunk.js.map",
+    "runtime-main.js": "/Dnd_from_22lesson/static/js/runtime-main.ab1cdd6c.js",
+    "runtime-main.js.map": "/Dnd_from_22lesson/static/js/runtime-main.ab1cdd6c.js.map",
+    "static/js/2.f3b29d9e.chunk.js": "/Dnd_from_22lesson/static/js/2.f3b29d9e.chunk.js",
+    "static/js/2.f3b29d9e.chunk.js.map": "/Dnd_from_22lesson/static/js/2.f3b29d9e.chunk.js.map",
+    "static/js/3.61cbdffc.chunk.js": "/Dnd_from_22lesson/static/js/3.61cbdffc.chunk.js",
+    "static/js/3.61cbdffc.chunk.js.map": "/Dnd_from_22lesson/static/js/3.61cbdffc.chunk.js.map",
+    "index.html": "/Dnd_from_22lesson/index.html",
+    "static/css/main.8fed11e8.chunk.css.map": "/Dnd_from_22lesson/static/css/main.8fed11e8.chunk.css.map",
+    "static/js/2.f3b29d9e.chunk.js.LICENSE.txt": "/Dnd_from_22lesson/static/js/2.f3b29d9e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab1cdd6c.js",
+    "static/js/2.f3b29d9e.chunk.js",
+    "static/css/main.8fed11e8.chunk.css",
+    "static/js/main.ef0a2f76.chunk.js"
+  ]
+}
