@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://trishinanton.github.io/store_from_21-lesson",
+  "homepage": "http://trishinanton.github.io/Dnd_from_22lesson",
   "dependencies": {
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",

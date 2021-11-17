@@ -5,6 +5,7 @@ import {AppRootStateType, store, useActions} from "./bll/redux-store";
 import {boardsActions} from "./bll";
 import {useSelector} from "react-redux";
 import {Board, BoardsType, Item} from "./bll/todo-reducer";
+import {ItemElement} from './ItemElement';
 
 function App() {
 
@@ -74,16 +75,16 @@ function App() {
                     onDrop={(e: any) => dropCardHandler(e, board)}
                 >
                     <div className="board__title">{board.title}</div>
-                    {board.items.map(item =>
-                        <div
-                            onDragOver={(e: any) => dragOverHandler(e)}
-                            onDragLeave={(e: any) => dragLeaveHandler(e)}
-                            onDragStart={(e: any) => dragStartHandler(e, board, item)}
-                            onDragEnd={(e: any) => dragEndHandler(e)}
-                            onDrop={(e: any) => dropHandler(e, board, item)}
-                            draggable={true}
-                            className="item"
-                        >{item.title}</div>
+                    {board.items.map(item => {
+                        return <ItemElement dragOverHandler={dragOverHandler}
+                                            dragLeaveHandler={dragLeaveHandler}
+                                            dragStartHandler = {dragStartHandler}
+                                            dragEndHandler={dragEndHandler}
+                                            dropHandler ={dropHandler}
+                                            title={item.title}
+                                            board={board}
+                                            item={item}/>
+                        }
                     )}
                 </div>
             )}
@@ -92,3 +93,4 @@ function App() {
 }
 
 export default App;
+
